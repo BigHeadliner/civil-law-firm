@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@fancyapps/ui": "^4.0.31"
+    "@fancyapps/ui": "^4.0.31",
+    "jquery-form-styler": "^2.0.2"
   }
 }
