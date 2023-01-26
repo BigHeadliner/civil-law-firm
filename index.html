@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="node_modules/jquery-form-styler/dist/jquery.formstyler.css">
   <!-- <link rel="stylesheet" href="node_modules/jquery-form-styler/dist/jquery.formstyler.theme.css">   -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css"> 
+  <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -25,9 +26,10 @@
       <div class="container">
         <div class="header__contacts">
           <a class="header__phone" href="tel:380963092145">+38 (096) 309 21 45</a>
-          <a class="header__email" href="#">layout585@gmail.com</a>
+          <a class="header__email" href="#">layout585@gmail.com</a> 
           <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Free consultation</a>
-        </div>
+        </div> 
+       
       </div>
     </div>
     <div class="header__content">
@@ -38,21 +40,25 @@
               <img src="images/logo.png" alt="logo">
             </a>
           </div>
-          <nav class="menu">
+          <nav class="menu"> 
+            <div class="header__btn-menu"> 
+              <span class="icon-bars"></span>
+            </div>
             <ul>
 
               <li><a href="#">Main</a></li>
-              <li><a href="#">About the company</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contacts</a></li>
+              <li><a href="#about">About the company</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contacts">Contacts</a></li>
 
             </ul>
           </nav>
         </div>
       </div>
     </div>
-  </header>
-  <section class="slider">
+  </header> 
+
+   <section class="slider">
     <div class="container">
       <div class="slider__inner">
 
@@ -110,7 +116,7 @@
     </div>
   </section>
 
-  <section class="services">
+  <section class="services" id="services">
     <div class="container">
       <div class="services__top">
         <div class="services__title-box">
@@ -211,8 +217,9 @@
 
       </div>
     </div>
-  </section>
-  <section class="about">
+  </section> 
+   
+  <section class="about" id="about">
     <div class="container">
       <div class="about__inner">
         <div class="about__title">
@@ -232,7 +239,8 @@
         </a>
       </div>
     </div>
-  </section>
+  </section> 
+   
   <section class="form">
     <div class="container">
       <div class="form__inner">
@@ -294,7 +302,7 @@
                      </textarea>
                     </label>
 
-                    <button class="default-btn" type="submit">Get the consultation</button>
+                    <button class="default-btn default-btn--form" type="submit">Get the consultation</button>
                   </div>
 
                 </div>
@@ -307,7 +315,7 @@
 
     </div>
   </section>
-
+  
   <section class="advantages">
     <div class="container">
       <div class="advantages__inner">
@@ -475,12 +483,12 @@
       </div>
     </div>
   </section>
-
+     
   <footer class="footer">
     <div class="footer__content">
       <div class="container">
         <div class="footer__inner">
-          <div class="footer__info">
+          <div class="footer__info" id="contacts">
             <div class="footer__title">Comprehensive plant closure</div>
             <div class="footer__text">
               Complete termination of the existence of
@@ -499,7 +507,6 @@
           </div>
           <div class="footer__map">
             <iframe 
-              width="630px" height="250px"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.12439089438!2d30.367110699999994!3d50.4574083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc919501b4ef%3A0x71a476f68f4c8246!2z0LLRg9C70LjRhtGPINCk0LXQvtC00L7RgNC4INCf0YPRiNC40L3QvtGXLCAxMywg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1674669634462!5m2!1suk!2sua"
               style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
@@ -513,7 +520,7 @@
         </div>
       </div>
     </div>
-  </footer>
+  </footer> 
 
   <div id="modal">
     <form> 
