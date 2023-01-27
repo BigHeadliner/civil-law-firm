@@ -40,9 +40,9 @@ $(function () {
       $('.menu ul').slideToggle()
    }); 
     
-   $('.menu a').on('click', function(){ 
-      $('.menu ul').slideToggle()
-   })  
+   // $('.menu a').on('click', function(){ 
+   //    $('.menu ul').slideToggle()
+   // })  
     
    $('.default-btn--form').on('click', function(e){ 
       e.preventDefault();
